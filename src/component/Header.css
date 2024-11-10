@@ -1,0 +1,38 @@
+/* src/components/Header.css */
+.header {
+    background-color: #333;
+    padding: 15px;
+    color: #fff;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-links a:hover {
+    color: #f0a500;
+  }
+  
+  /* Mobile responsive navigation */
+  @media (max-width: 600px) {
+    .nav-links {
+      flex-direction: column;
+    }
+  
+    .nav-links li {
+      margin: 10px 0;
+    }
+  }
+  

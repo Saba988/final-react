@@ -1,0 +1,15 @@
+/* src/App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  font-family: Arial, sans-serif;
+  background-color: rgb(215, 250, 244);
+}
+
+main {
+  padding: 20px;
+}
